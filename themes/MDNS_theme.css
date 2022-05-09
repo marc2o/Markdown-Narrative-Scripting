@@ -1,0 +1,64 @@
+:root {
+  --text-color: #333333;
+  --link-color: #6699cc;
+  --hrow-color: #999999
+}
+
+#game {
+  max-width: 40rem;
+  padding: 1rem 2rem;
+  margin: 0 auto;
+  font-family: "Garamond", "Book Antiqua", serif;
+  color: var(--text-color);
+  font-size: 150%;
+}
+
+#game #EndOfScript {
+  height: 2rem;
+}
+
+#game a,
+#game a:active,
+#game a:hover,
+#game a:visited {
+    font-style: italic;
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+#game ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  list-style: none;
+}
+#game li {
+  margin: .25em 0 0 0;
+  padding: 0;
+}
+#game hr {
+  border: none;
+  height: 1px;
+  width: 25%;
+  margin: 2em auto;
+  background: var(--hrow-color);
+}
+#game img {
+  display: block;
+  max-width: 100%;
+}
+#game p,
+#game p>img
+#game h2,
+#game ul,
+#game hr {
+    transition: opacity 1s;
+    will-change: opacity;
+}
+#game .invisible {
+    opacity: 0;
+}
+
+#game #more {
+  text-align: center;
+}

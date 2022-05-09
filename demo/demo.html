@@ -1,0 +1,32 @@
+<!doctype html>
+<html class="no-js" lang="de">
+
+<head>
+  <meta charset="utf-8">
+  <title>Markdown Narrative Scripting</title>
+  <meta name="author" content="Marc Oliver Orth // marc2o">
+  <meta name="description" content="A very simple Markdown Narrative Script Engine">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../themes/MDNS_theme.css">
+  <meta name="theme-color" content="#424242">
+
+  <style>
+    body {
+        padding: 0;
+        margin: 0;
+    }
+  </style>
+</head>
+
+<body>
+    <script src="../MDNS_engine.js" id="MDNS"></script>
+    <script>
+      (function () {
+        MDNS.begin(`
+          JSBBIFZlcnkgU2ltcGxlIE1hcmtkb3duIE5hcnJhdGl2ZSBTY3JpcHRpbmcgRXhhbXBsZQoKIyMgVGhlIEJlZ2lubmluZwoKWW91IGFyZSBhdCAqKnRoZSBiZWdpbm5pbmcqKi4gV2hlcmUgX2V2ZXJ5dGhpbmdfIHN0YXJ0cy4gRWl0aGVyIHdpdGggb3Igd2l0aG91dCBzdHlsZWQgdGV4dC4KCkNob2ljZXMgd2lsbCBoYXZlIHRvIGJlIG1hZGUuIEFzIGFsd2F5cy4KCi0gW0dvIHNvbWV3aGVyZSBlbHNlXShzb21ld2hlcmUtZWxzZSkKLSBbSnVzdCBrZWVwIHdhaXRpbmddKHN0aWxsLWhlcmUpCgojIyBTb21ld2hlcmUgRWxzZQoKIVtQaWN0dXJlIHRoaXNdKGh0dHBzOi8vcGljc3VtLnBob3Rvcy84MDAvNDAwKQoKVGhlIGdyYXNzIGlzbuKAmXQgZXhhY3RseSBncmVlbmVyIG92ZXIgaGVyZS4gSnVzdCBhIHRyaWNrIG9mIGxpZ2h0LiBBIGNoYW5nZSBvZiBwb3NpdGlvbiBvZnRlbiBjb21lcyB3aXRoIGEgY2hhbmdlIGluIHBlcnNwZWN0aXZlLgoKLSBbUmV0dXJuIHRvIHRoZSBiZWdpbm5pbmddKHRoZS1iZWdpbm5pbmcpCgojIyBTdGlsbCBIZXJlCgpUaW1lIGlzIHRpY2tpbmcuIE5vdGhpbmcgaGFwcGVucy4KCi0gW0xvb2sgYXJvdW5kXSh0aGUtYmVnaW5uaW5nKQotIFtDb21lIGJhY2sgdG9tb3Jyb3ddKGVuZCkKCiMjIEVuZAoKVGhlIGVuZC4=
+        `);
+      })();
+    </script>
+</body>
+
+</html>
