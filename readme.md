@@ -2,7 +2,7 @@
 
 This is a very simple _Markdown Narrative Scripting_ (short MDNS) engine. More of a proof-of-concept than anything else. I wanted something like [Ink](https://github.com/inkle/ink), but even simpler.
 
-The demo illustrates how this is intended to be used.
+The `demo/` files illustrate how this is intended to be used.
 
 ## Writing Narrative Scripts
 
