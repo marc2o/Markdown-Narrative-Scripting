@@ -8,6 +8,8 @@ The `demo/` files illustrate how this is intended to be used.
 
 It is really simple. Open your favorite Markdown editor (mine are Zettlr and iA Writer) and write your text. You can certainly format your text using `**` or `__` for bold and `*` or `_` for italic text. Images work, too (`![some text that is ignored](path/to/image)`).
 
+In the first line give your story a **title** using `% The Title`.
+
 **Headings** (`# .. ### My Heading Text`) always introduce sections, regardless of their level.
 
 These can be linked to in **Choices** (sort of dialogue options), which should placed at the end of a section in the form of links in an unordered list (`- [Choice text](section-heading)` — note the absence of the `#`, usually used for internal anchors). Thus, the user chooses how (or rather in which section) the »story« continues.
